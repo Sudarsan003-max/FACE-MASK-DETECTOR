@@ -39,7 +39,7 @@ It uses Python, OpenCV, and TensorFlow/Keras to process video or image input, an
 ## ⚙️ Installation
 
 ### 1. Clone the repository
-```bash
+```
 git clone https://github.com/Sudarsan003-max/FACE-MASK-DETECTOR.git
 cd FACE-MASK-DETECTOR
 2. Create a virtual environment (recommended)
@@ -54,17 +54,15 @@ pip install -r requirements.txt
 🖥️ Usage
 Run the Streamlit app:
 
-bash
+
 Copy code
 streamlit run app.py
 Select Webcam Mode or Image Upload
-
-View real-time detection results in your browser
-
+```
+---
 
 🏗️ Project Structure
-bash
-Copy code
+```
 FACE-MASK-DETECTOR/
 ├── app.py                 # Main Streamlit application
 ├── detect_mask_image.py   # Image detection pipeline
@@ -75,9 +73,9 @@ FACE-MASK-DETECTOR/
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project documentation
 
-
-
-🤝 Contributing
+```
+---
+# 🤝 Contributing
 
 Contributions are welcome!
 
@@ -90,3 +88,4 @@ Commit your changes (git commit -m "Add AmazingFeature")
 Push to the branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
+
